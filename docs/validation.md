@@ -50,7 +50,7 @@ review the resulting code, outputs, and unexecuted branches.
 
 ## Verification record: 2026-10-23
 
-All 14 entrypoints passed the skill-creator metadata validator. Agent metadata,
+The initial 14 entrypoints passed the skill-creator metadata validator. Agent metadata,
 relative Markdown links, and Python recipe syntax were also checked. The skills
 CLI discovered and copied all 14 skills into an isolated Codex project, including
 their supporting references.
@@ -88,3 +88,11 @@ serving endpoints were executed. The installed TimeGPT package lacks several
 methods present in the supplied documentation; affected recipes identify that
 boundary. Public GitHub installation and skills.sh listing require publishing
 the files and are separate from the completed local checks.
+
+The getting-started addition brings discovery to 15 skills and passed the same
+metadata, reference-link, and syntax checks. It was installed by itself into an
+isolated project. Its exact local example produced fourteen finite daily forecasts
+on the expected future grid. A fresh-agent trial using only that installed skill
+also produced the script and forecast CSV without credentials, API requests, or
+other Nixtla skills. The demonstration proves setup and execution, not business
+forecast accuracy.

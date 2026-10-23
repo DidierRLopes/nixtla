@@ -10,7 +10,13 @@ right data contract, build a working analysis, and validate the result.
 npx skills add DidierRLopes/nixtla
 ```
 
-Choose the workflows and agents to install. Install one workflow directly:
+Choose the workflows and agents to install. If you are new to Nixtla, start with:
+
+```bash
+npx skills add DidierRLopes/nixtla --skill nixtla-getting-started
+```
+
+Install a specialist workflow directly:
 
 ```bash
 npx skills add DidierRLopes/nixtla --skill nixtla-timegpt-forecast
@@ -36,6 +42,7 @@ direct agents to check the installed SDK before using them.
 
 | You want to... | Skill |
 | --- | --- |
+| Choose a library, set up Nixtla, and run your first forecast | [nixtla-getting-started](skills/nixtla-getting-started/SKILL.md) |
 | Fix gaps, timestamps, duplicates, or input layout | [nixtla-time-series-data](skills/nixtla-time-series-data/SKILL.md) |
 | Get a fast forecast using the TimeGPT foundation model | [nixtla-timegpt-forecast](skills/nixtla-timegpt-forecast/SKILL.md) |
 | Add prices, promotions, weather, holidays, or other drivers | [nixtla-exogenous-forecast](skills/nixtla-exogenous-forecast/SKILL.md) |
@@ -77,3 +84,15 @@ and conflicting or version-sensitive guidance. Recipes are concise adaptations;
 the live docs and installed package determine current capabilities.
 
 Use [local verification](docs/validation.md) when editing or trying the collection.
+
+## What is inside a skill?
+
+| Location | Purpose |
+| --- | --- |
+| `SKILL.md` | The skill's discovery description and workflow instructions. |
+| `agents/openai.yaml` | Optional agent-interface metadata, including the display name and suggested prompt. It does not create or run a separate agent. |
+| `references/` | Detailed recipes, examples, and sources that the agent reads when the workflow needs them. |
+
+The workflow stays in `SKILL.md` so the skill remains usable in agents that do
+not consume the OpenAI-specific metadata. References keep the initial context
+small while preserving the details needed to complete the task.

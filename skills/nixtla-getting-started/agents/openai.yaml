@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Getting Started"
+  short_description: "Choose a workflow and run your first forecast"
+  default_prompt: "Use $nixtla-getting-started to choose the right Nixtla workflow and produce my first verified forecast."

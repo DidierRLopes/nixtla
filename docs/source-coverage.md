@@ -72,7 +72,7 @@ their ground-truth and calibration rules differ from fitting a point forecaster.
 | [List Models](https://nixtla.io/docs/api-reference/list-models) | `nixtla-timegpt-forecast` |
 | [Validate Api Key](https://nixtla.io/docs/api-reference/validate-api-key) | `nixtla-timegpt-forecast` |
 | [Audit and Clean Data](https://nixtla.io/docs/data_requirements/audit_clean) | `nixtla-time-series-data` |
-| [Data Requirements](https://nixtla.io/docs/data_requirements/data_requirements) | `nixtla-time-series-data`, `nixtla-timegpt-forecast` |
+| [Data Requirements](https://nixtla.io/docs/data_requirements/data_requirements) | `nixtla-time-series-data`, `nixtla-timegpt-forecast`, `nixtla-getting-started` |
 | [Missing Values](https://nixtla.io/docs/data_requirements/missing_values) | `nixtla-time-series-data` |
 | [Multiple Time Series](https://nixtla.io/docs/data_requirements/multiple_series) | `nixtla-time-series-data`, `nixtla-timegpt-forecast` |
 | [Cross-validation Tutorial](https://nixtla.io/docs/forecasting/evaluation/cross_validation) | `nixtla-forecast-evaluation` |
@@ -106,7 +106,7 @@ their ground-truth and calibration rules differ from fitting a point forecaster.
 | [Hierarchical Forecasting](https://nixtla.io/docs/forecasting/special-topics/hierarchical_forecasting) | `nixtla-hierarchical-forecast` |
 | [Irregular Timestamps](https://nixtla.io/docs/forecasting/special-topics/irregular_timestamps) | `nixtla-time-series-data` |
 | [Temporal Hierarchical Forecasting with TimeGPT](https://nixtla.io/docs/forecasting/special-topics/temporal_hierarchical) | `nixtla-hierarchical-forecast` |
-| [Quickstart (TimeGPT-2.1)](https://nixtla.io/docs/forecasting/timegpt_quickstart) | `nixtla-timegpt-forecast` |
+| [Quickstart (TimeGPT-2.1)](https://nixtla.io/docs/forecasting/timegpt_quickstart) | `nixtla-timegpt-forecast`, `nixtla-getting-started` |
 | [About TimeGPT](https://nixtla.io/docs/introduction/about_timegpt) | `nixtla-timegpt-forecast` |
 | [TimeGPT FAQ](https://nixtla.io/docs/introduction/faq) | `nixtla-timegpt-forecast` |
 | [Introduction](https://nixtla.io/docs/introduction/introduction) | `nixtla-timegpt-forecast` |
@@ -114,13 +114,13 @@ their ground-truth and calibration rules differ from fitting a point forecaster.
 | [Why TimeGPT?](https://nixtla.io/docs/introduction/why_timegpt) | `nixtla-timegpt-forecast` |
 | [Asynchronous Jobs](https://nixtla.io/docs/jobs/asynchronous_jobs) | `nixtla-forecast-at-scale` |
 | [Date Features](https://nixtla.io/docs/reference/date_features) | `nixtla-exogenous-forecast` |
-| [SDK Reference](https://nixtla.io/docs/reference/sdk_reference) | `nixtla-anomaly-detection`, `nixtla-exogenous-forecast`, `nixtla-forecast-at-scale`, `nixtla-forecast-evaluation`, `nixtla-probabilistic-forecast`, `nixtla-scenario-analysis`, `nixtla-timegpt-finetune`, `nixtla-timegpt-forecast` |
+| [SDK Reference](https://nixtla.io/docs/reference/sdk_reference) | `nixtla-anomaly-detection`, `nixtla-exogenous-forecast`, `nixtla-forecast-at-scale`, `nixtla-forecast-evaluation`, `nixtla-probabilistic-forecast`, `nixtla-scenario-analysis`, `nixtla-timegpt-finetune`, `nixtla-timegpt-forecast`, `nixtla-getting-started` |
 | [TimeGPT Excel Add-in (Beta)](https://nixtla.io/docs/reference/timegpt_excel_add_in_beta_) | `nixtla-timegpt-forecast` |
 | [TimeGPT in R](https://nixtla.io/docs/reference/timegpt_in_r) | `nixtla-timegpt-forecast` |
 | [TimeGEN-1 Quickstart (Azure)](https://nixtla.io/docs/setup/azureai) | `nixtla-timegpt-forecast` |
 | [Docker Image for TimeGPT](https://nixtla.io/docs/setup/docker) | `nixtla-timegpt-forecast` |
 | [Python Wheel for TimeGPT](https://nixtla.io/docs/setup/python_wheel) | `nixtla-timegpt-forecast` |
-| [Setting up your API key](https://nixtla.io/docs/setup/setting_up_your_api_key) | `nixtla-timegpt-forecast` |
+| [Setting up your API key](https://nixtla.io/docs/setup/setting_up_your_api_key) | `nixtla-timegpt-forecast`, `nixtla-getting-started` |
 | [Forecasting Bitcoin Prices](https://nixtla.io/docs/use_cases/bitcoin_price_prediction) | `nixtla-timegpt-forecast` |
 | [Plan Retail Promotions with Coupled Simulation](https://nixtla.io/docs/use_cases/coupled_simulation_retail) | `nixtla-scenario-analysis` |
 | [Forecasting Energy Demand](https://nixtla.io/docs/use_cases/forecasting_energy_demand) | `nixtla-timegpt-forecast` |
@@ -209,7 +209,7 @@ their ground-truth and calibration rules differ from fitting a point forecaster.
 | [Reconciliation Methods](https://nixtlaverse.nixtla.io/hierarchicalforecast/methods.html) | `nixtla-hierarchical-forecast` |
 | [Probabilistic Methods](https://nixtlaverse.nixtla.io/hierarchicalforecast/probabilistic_methods.html) | `nixtla-hierarchical-forecast`, `nixtla-probabilistic-forecast` |
 | [Aggregation/Visualization Utils](https://nixtlaverse.nixtla.io/hierarchicalforecast/utils.html) | `nixtla-hierarchical-forecast` |
-| [Nixtlaverse](https://nixtlaverse.nixtla.io/index) | `nixtla-timegpt-forecast` |
+| [Nixtlaverse](https://nixtlaverse.nixtla.io/index) | `nixtla-timegpt-forecast`, `nixtla-getting-started` |
 | [Auto](https://nixtlaverse.nixtla.io/mlforecast/auto.html) | `nixtla-mlforecast` |
 | [Callbacks](https://nixtlaverse.nixtla.io/mlforecast/callbacks.html) | `nixtla-mlforecast` |
 | [Conformal Prediction](https://nixtlaverse.nixtla.io/mlforecast/conformal_prediction.html) | `nixtla-mlforecast`, `nixtla-probabilistic-forecast` |
@@ -224,7 +224,7 @@ their ground-truth and calibration rules differ from fitting a point forecaster.
 | [End to end walkthrough - MLForecast](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/end_to_end_walkthrough.html) | `nixtla-mlforecast` |
 | [Install - MLForecast](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/install.html) | `nixtla-mlforecast` |
 | [Quick start (distributed)](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/quick_start_distributed.html) | `nixtla-forecast-at-scale`, `nixtla-mlforecast` |
-| [Quick start (local)](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/quick_start_local.html) | `nixtla-mlforecast` |
+| [Quick start (local)](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/quick_start_local.html) | `nixtla-mlforecast`, `nixtla-getting-started` |
 | [Analyzing the trained models](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/analyzing_models.html) | `nixtla-mlforecast` |
 | [Cross validation - MLForecast](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/cross_validation.html) | `nixtla-forecast-evaluation`, `nixtla-mlforecast` |
 | [Custom date features](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/custom_date_features.html) | `nixtla-exogenous-forecast`, `nixtla-mlforecast` |
@@ -276,7 +276,7 @@ their ground-truth and calibration rules differ from fitting a point forecaster.
 | [Data Requirements](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/datarequirements.html) | `nixtla-neuralforecast`, `nixtla-time-series-data` |
 | [Installation](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/installation.html) | `nixtla-neuralforecast` |
 | [About NeuralForecast](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/introduction.html) | `nixtla-neuralforecast` |
-| [Quickstart](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/quickstart.html) | `nixtla-neuralforecast` |
+| [Quickstart](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/quickstart.html) | `nixtla-neuralforecast`, `nixtla-getting-started` |
 | [Adding Models to NeuralForecast](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/adding_models.html) | `nixtla-neuralforecast` |
 | [Statistical, Machine Learning and Neural Forecasting methods- NeuralForecast](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/comparing_methods.html) | `nixtla-forecast-evaluation`, `nixtla-neuralforecast` |
 | [Modify the configure_optimizers() behavior of NeuralForecast models](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/configure_optimizers.html) | `nixtla-neuralforecast` |
@@ -362,7 +362,7 @@ their ground-truth and calibration rules differ from fitting a point forecaster.
 | [StatsForecast ETS and Facebook Prophet on Spark (M5)](https://nixtlaverse.nixtla.io/statsforecast/docs/experiments/prophet_spark_m5.html) | `nixtla-statsforecast` |
 | [End to End Walkthrough - StatsForecast](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/getting_started_complete.html) | `nixtla-statsforecast` |
 | [End to End Walkthrough with Polars](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/getting_started_complete_polars.html) | `nixtla-statsforecast` |
-| [Quick Start - StatsForecast](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/getting_started_short.html) | `nixtla-statsforecast` |
+| [Quick Start - StatsForecast](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/getting_started_short.html) | `nixtla-statsforecast`, `nixtla-getting-started` |
 | [Install - StatsForecast](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/installation.html) | `nixtla-statsforecast` |
 | [Automatic Time Series Forecasting](https://nixtlaverse.nixtla.io/statsforecast/docs/how-to-guides/automatic_forecasting.html) | `nixtla-statsforecast` |
 | [Exogenous Regressors](https://nixtlaverse.nixtla.io/statsforecast/docs/how-to-guides/exogenous.html) | `nixtla-exogenous-forecast`, `nixtla-statsforecast` |
