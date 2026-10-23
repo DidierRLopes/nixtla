@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Hierarchical Forecasting"
+  short_description: "Make forecasts add up across every level"
+  default_prompt: "Use $nixtla-hierarchical-forecast to produce forecasts that satisfy the actual aggregation structure and quantify accuracy at the levels users act on."

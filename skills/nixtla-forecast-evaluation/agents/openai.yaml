@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Forecast Evaluation"
+  short_description: "Compare forecasts with realistic backtests"
+  default_prompt: "Use $nixtla-forecast-evaluation to compare models on the information and forecast schedule that would exist in actual use."

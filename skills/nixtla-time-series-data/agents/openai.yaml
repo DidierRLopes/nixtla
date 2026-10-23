@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Time Series Data Preparation"
+  short_description: "Prepare trustworthy forecasting inputs"
+  default_prompt: "Use $nixtla-time-series-data to turn source data into a forecasting-ready panel while preserving the meaning of each observation."

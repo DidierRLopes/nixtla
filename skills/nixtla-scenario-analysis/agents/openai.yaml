@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Scenarios and Forecast Explanations"
+  short_description: "Explore scenarios, explanations, and joint risk"
+  default_prompt: "Use $nixtla-scenario-analysis to translate forecast scenarios into decision quantities while keeping predictive sensitivity distinct from causality."

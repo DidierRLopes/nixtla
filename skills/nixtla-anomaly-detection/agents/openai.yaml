@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Anomaly Detection"
+  short_description: "Detect and investigate unusual observations"
+  default_prompt: "Use $nixtla-anomaly-detection to distinguish retrospective investigation from monitoring and produce an interpretable anomaly table."

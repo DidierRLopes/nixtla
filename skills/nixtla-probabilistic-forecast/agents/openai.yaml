@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Probabilistic Forecasting"
+  short_description: "Calibrate uncertainty and measure coverage"
+  default_prompt: "Use $nixtla-probabilistic-forecast to produce uncertainty estimates whose units, calibration history, and coverage interpretation are explicit."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Synthetic Time Series"
+  short_description: "Generate and stress-test time-series panels"
+  default_prompt: "Use $nixtla-synthetic-data to create data with controlled temporal behavior and test its value on untouched real observations when used for learning."

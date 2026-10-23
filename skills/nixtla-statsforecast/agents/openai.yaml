@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Statistical Forecasting"
+  short_description: "Build fast statistical and sparse-demand models"
+  default_prompt: "Use $nixtla-statsforecast to choose a compact statistical baseline and model set matched to the data pattern and forecasting horizon."

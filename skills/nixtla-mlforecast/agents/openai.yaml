@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Machine Learning Forecasting"
+  short_description: "Train forecasts from lag and calendar features"
+  default_prompt: "Use $nixtla-mlforecast to build a leakage-safe tabular forecasting pipeline with explicit feature availability and evaluation."

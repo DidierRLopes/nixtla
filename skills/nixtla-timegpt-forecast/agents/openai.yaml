@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla TimeGPT Forecasting"
+  short_description: "Forecast with the TimeGPT foundation model"
+  default_prompt: "Use $nixtla-timegpt-forecast to produce a usable TimeGPT forecast and evidence that it matches the requested future grid."

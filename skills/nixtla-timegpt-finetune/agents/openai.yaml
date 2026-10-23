@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla TimeGPT Fine-Tuning"
+  short_description: "Adapt TimeGPT and reuse validated models"
+  default_prompt: "Use $nixtla-timegpt-finetune to accept fine-tuning only when it improves the intended forecast on data excluded from adaptation."

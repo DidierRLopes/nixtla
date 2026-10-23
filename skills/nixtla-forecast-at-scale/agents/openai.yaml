@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Forecasting at Scale"
+  short_description: "Scale forecasting with bounded execution"
+  default_prompt: "Use $nixtla-forecast-at-scale to scale a verified forecasting workflow while preserving complete histories, bounded work, and output accounting."

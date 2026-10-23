@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Neural Forecasting"
+  short_description: "Train and validate deep forecasting models"
+  default_prompt: "Use $nixtla-neuralforecast to train a neural forecasting model against a meaningful baseline with explicit horizon, context, scaling, and validation."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nixtla Forecasts with External Drivers"
+  short_description: "Add future-known drivers without leakage"
+  default_prompt: "Use $nixtla-exogenous-forecast to use external drivers without letting unavailable future information enter the model."
